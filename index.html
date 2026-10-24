@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080d19" />
+    <meta name="description"
+        content="Pranay Shinde is a software developer building reliable web applications with .NET, Angular, APIs, and SQL Server." />
+    <meta property="og:title" content="Pranay Shinde | Software Developer" />
+    <meta property="og:description"
+        content="Building thoughtful digital products with .NET, Angular, and modern web technologies." />
+    <meta property="og:type" content="website" />
+    <title>Pranay Shinde | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+        <nav class="nav-wrap container" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="Pranay Shinde home"><span
+                    class="brand-mark">P<span>.</span></span><span class="brand-name">PRANAY SHINDE</span></a>
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span>
+            </button>
+            <div class="nav-links" id="primary-nav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme"
+                    title="Toggle theme"><span id="theme-icon">☼</span></button>
+                <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section container" id="home">
+            <div class="hero-copy reveal">
+                <div class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES <span
+                        class="eyebrow-line"></span></div>
+                <p class="hero-kicker">Hello, I'm Pranay —</p>
+                <h1>I build <span class="gradient-text">digital</span><br />experiences that<br /><span
+                        class="outline-text">work beautifully.</span></h1>
+                <p class="hero-description">Software developer focused on reliable backends, intuitive interfaces, and
+                    products that solve real problems.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">Explore my work <span
+                            aria-hidden="true">↘</span></a>
+                    <a class="button button-ghost" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="hero-footnote"><span class="mono">BASED IN INDIA</span><span
+                        class="footnote-divider"></span><span class="mono">AVAILABLE FOR REMOTE WORK</span></div>
+            </div>
+
+            <div class="hero-visual reveal reveal-delay" aria-label="Developer profile">
+                <div class="visual-grid" aria-hidden="true"></div>
+                <div class="orbit orbit-one" aria-hidden="true"></div>
+                <div class="orbit orbit-two" aria-hidden="true"></div>
+                <div class="profile-frame">
+                    <div class="profile-image-wrap">
+                        <img class="profile-image" src="assets/images/Profile.jfif" alt="Portrait of Pranay Shinde"
+                            onerror="this.style.display='none';this.nextElementSibling.style.display='grid';" />
+                        <div class="profile-fallback" aria-hidden="true">PS<span>.</span></div>
+                    </div>
+                    <div class="profile-caption"><span class="caption-indicator"></span>
+                        <div><strong>Pranay Shinde</strong><small>Software Developer</small></div>
+                        <span class="caption-code">01 / 04</span>
+                    </div>
+                </div>
+                <div class="floating-chip chip-code"><span class="chip-icon">{ }</span><span><strong>Clean
+                            code</strong><small>Built to scale</small></span></div>
+                <div class="floating-chip chip-stack"><span class="stack-symbol">✳</span><span><strong>.NET +
+                            Angular</strong><small>Full-stack mindset</small></span></div>
+                <div class="visual-cross cross-one" aria-hidden="true">+</div>
+                <div class="visual-cross cross-two" aria-hidden="true">+</div>
+            </div>
+            <a class="scroll-cue" href="#about"><span class="scroll-cue-line"></span> SCROLL TO EXPLORE</a>
+        </section>
+
+        <section class="ticker" aria-label="Technology highlights">
+            <div class="ticker-track">
+                <span>C# / .NET</span><i>✳</i><span>ANGULAR</span><i>✳</i><span>REST APIS</span><i>✳</i><span>SQL
+                    SERVER</span><i>✳</i><span>NODE.JS</span><i>✳</i><span>DOCKER</span><i>✳</i>
+                <span>C# / .NET</span><i>✳</i><span>ANGULAR</span><i>✳</i><span>REST APIS</span><i>✳</i><span>SQL
+                    SERVER</span><i>✳</i><span>NODE.JS</span><i>✳</i><span>DOCKER</span><i>✳</i>
+            </div>
+        </section>
+
+        <section class="section container about-section" id="about">
+            <div class="section-heading reveal">
+                <p class="section-index">01 — ABOUT</p>
+                <h2>Thoughtful engineering.<br /><span class="muted-heading">Human-friendly results.</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-intro reveal">
+                    <p class="large-copy">I enjoy turning complex requirements into <span class="accent-text">simple,
+                            dependable software.</span></p>
+                    <p>From designing APIs and data workflows to building responsive interfaces, I care about the
+                        details that make a product useful, maintainable, and pleasant to use.</p><a class="text-link"
+                        href="#contact">Have a project in mind? <span>↗</span></a>
+                </div>
+                <div class="about-details reveal reveal-delay">
+                    <div class="detail-row"><span class="detail-number">01</span>
+                        <div>
+                            <h3>Backend development</h3>
+                            <p>API design, authentication, data access, and maintainable service architecture.</p>
+                        </div><span class="detail-arrow">↗</span>
+                    </div>
+                    <div class="detail-row"><span class="detail-number">02</span>
+                        <div>
+                            <h3>Frontend experiences</h3>
+                            <p>Responsive Angular and JavaScript interfaces that feel clear and fast.</p>
+                        </div><span class="detail-arrow">↗</span>
+                    </div>
+                    <div class="detail-row"><span class="detail-number">03</span>
+                        <div>
+                            <h3>Delivery & integration</h3>
+                            <p>Connecting systems, troubleshooting deployments, and improving reliability.</p>
+                        </div><span class="detail-arrow">↗</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-index">02 — TOOLKIT</p>
+                    <h2>Tools I use to<br /><span class="muted-heading">bring ideas to life.</span></h2>
+                    <p class="section-subtitle">A practical toolkit for building and shipping full-stack applications.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card reveal"><span class="skill-icon">C#</span>
+                        <div>
+                            <h3>C# & .NET</h3>
+                            <p>Web APIs · MVC · Services</p>
+                        </div><span class="skill-card-arrow">↗</span>
+                    </article>
+                    <article class="skill-card reveal"><span class="skill-icon skill-icon-angular">A</span>
+                        <div>
+                            <h3>Angular</h3>
+                            <p>Components · Routing · Forms</p>
+                        </div><span class="skill-card-arrow">↗</span>
+                    </article>
+                    <article class="skill-card reveal"><span class="skill-icon skill-icon-db">▤</span>
+                        <div>
+                            <h3>SQL Server</h3>
+                            <p>Queries · Data modelling · EF Core</p>
+                        </div><span class="skill-card-arrow">↗</span>
+                    </article>
+                    <article class="skill-card reveal"><span class="skill-icon skill-icon-api">⌘</span>
+                        <div>
+                            <h3>REST APIs</h3>
+                            <p>JWT · Validation · Integration</p>
+                        </div><span class="skill-card-arrow">↗</span>
+                    </article>
+                    <article class="skill-card reveal"><span class="skill-icon skill-icon-js">JS</span>
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>ES6+ · DOM · Async workflows</p>
+                        </div><span class="skill-card-arrow">↗</span>
+                    </article>
+                    <article class="skill-card reveal"><span class="skill-icon skill-icon-devops">⌁</span>
+                        <div>
+                            <h3>Tools & delivery</h3>
+                            <p>Git · Docker · IIS</p>
+                        </div><span class="skill-card-arrow">↗</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container projects-section" id="projects">
+            <div class="projects-heading-row">
+                <div class="section-heading reveal">
+                    <p class="section-index">03 — SELECTED WORK</p>
+                    <h2>Projects with<br /><span class="muted-heading">purpose behind them.</span></h2>
+                </div>
+                <p class="projects-intro reveal">A selection of projects I've worked on. Each one is an opportunity to
+                    solve a problem and make the experience better.</p>
+            </div>
+            <div class="project-list">
+                <article class="project-card project-meetezy reveal">
+                    <div class="project-number"></div>
+                    <!-- <div class="project-number">01 <span> / 03</span></div> -->
+                    <div class="project-main">
+                        <div class="project-tags"><span>WEB APPLICATION</span><span>FULL-STACK</span></div>
+                        <h3>MEETEZY</h3>
+                        <p>A platform concept focused on making it easier for people to connect, coordinate, and manage
+                            meetups.</p>
+                        <div class="tech-list"><span>.NET</span><span>Angular</span><span>REST API</span></div>
+                    </div>
+                    <div class="project-side">
+                        <div class="project-art art-meetezy" aria-hidden="true">
+                            <div class="art-window">
+                                <div class="art-window-top"><i></i><i></i><i></i></div>
+                                <div class="art-content">
+                                    <div class="art-avatar">M</div>
+                                    <div class="art-lines"><b></b><b></b><b></b></div>
+                                    <div class="art-orb"></div>
+                                </div>
+                            </div><span class="art-label">CONNECT / COLLABORATE</span>
+                        </div><a class="project-link" href="#contact" aria-label="Ask about MEETEZY project">Discuss
+                            this project <span>↗</span></a>
+                    </div>
+                </article>
+                <article class="project-card project-vote reveal">
+                    <div class="project-number"></div>
+                    <!-- <div class="project-number">02 <span> / 03</span></div> -->
+                    <div class="project-main">
+                        <div class="project-tags"><span>VOTING PLATFORM</span><span>WEB APPLICATION</span></div>
+                        <h3>INSTA VOTE</h3>
+                        <p>A digital voting experience designed around straightforward participation and a clear user
+                            journey.</p>
+                        <div class="tech-list"><span>C#</span><span>SQL Server</span><span>JavaScript</span></div>
+                    </div>
+                    <div class="project-side">
+                        <div class="project-art art-vote" aria-hidden="true">
+                            <div class="vote-card"><span class="vote-check">✓</span><b>YOUR VOICE<br />COUNTS.</b>
+                                <div class="vote-bars"><i></i><i></i><i></i></div>
+                            </div><span class="art-label">PARTICIPATE / MAKE A CHOICE</span>
+                        </div><a class="project-link" href="#contact" aria-label="Ask about INSTA VOTE project">Discuss
+                            this project <span>↗</span></a>
+                    </div>
+                </article>
+                <article class="project-card project-cashfeen reveal">
+                    <div class="project-number"></div>
+                    <!-- <div class="project-number">03 <span> / 03</span></div> -->
+                    <div class="project-main">
+                        <div class="project-tags"><span>FINANCE</span><span>WEB APPLICATION</span></div>
+                        <h3>CASHFEEN</h3>
+                        <p>A finance-oriented product concept focused on organizing information and making key actions
+                            easier to understand.</p>
+                        <div class="tech-list"><span>.NET</span><span>SQL Server</span><span>API Integration</span>
+                        </div>
+                    </div>
+                    <div class="project-side">
+                        <div class="project-art art-cash" aria-hidden="true">
+                            <div class="cash-panel"><span>OVERVIEW</span><strong>₹ 24,850</strong>
+                                <div class="cash-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                                </div><small>FINANCIAL SNAPSHOT</small>
+                            </div><span class="art-label">TRACK / PLAN / GROW</span>
+                        </div><a class="project-link" href="#contact" aria-label="Ask about CASHFEEN project">Discuss
+                            this project <span>↗</span></a>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="cta-band">
+            <div class="container cta-inner reveal">
+                <div>
+                    <p class="section-index">HAVE SOMETHING IN MIND?</p>
+                    <h2>Let's make it<br /><span>happen.</span></h2>
+                </div><a class="round-cta" href="#contact" aria-label="Go to contact section"><span>LET'S
+                        TALK</span><b>↗</b></a>
+                <div class="cta-spark" aria-hidden="true">✳</div>
+            </div>
+        </section>
+
+        <section class="section container contact-section" id="contact">
+            <div class="section-heading reveal">
+                <p class="section-index">04 — CONTACT</p>
+                <h2>Have a good idea?<br /><span class="muted-heading">Let's talk about it.</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-copy reveal">
+                    <p>Whether you're hiring, exploring a freelance project, or simply want to connect, my inbox is
+                        open.</p><a class="contact-email"
+                        href="mailto:pranayshinde855@gmail.com">pranayshinde855@gmail.com <span>↗</span></a>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/pranay-shinde-a54136156" target="_blank"
+                            rel="noreferrer">LinkedIn <span>↗</span></a>
+                        <a href="https://github.com/PranayShinde855" target="_blank" rel="noreferrer">GitHub
+                            <span>↗</span></a>
+                    </div>
+                </div>
+                <form class="contact-form reveal reveal-delay" id="contact-form">
+                    <div class="form-row"><label for="name">YOUR NAME<input id="name" name="name" type="text"
+                                placeholder="Jane Smith" autocomplete="name" required maxlength="100" /></label><label
+                            for="email">EMAIL ADDRESS<input id="email" name="email" type="email"
+                                placeholder="jane@company.com" autocomplete="email" required maxlength="254" /></label>
+                    </div>
+                    <label for="subject">SUBJECT<input id="subject" name="subject" type="text"
+                            placeholder="Project enquiry / Job opportunity" required maxlength="150" /></label>
+                    <label for="message">MESSAGE<textarea id="message" name="message" rows="4"
+                            placeholder="Tell me a little about what you have in mind..." required
+                            maxlength="3000"></textarea></label>
+                    <div class="form-bottom">
+                        <button class="button button-primary form-submit" type="submit">Prepare message
+                            <span>↗</span></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-top"><a class="brand" href="#home"><span
+                    class="brand-mark">P<span>.</span></span><span class="brand-name">PRANAY SHINDE</span></a>
+            <p>Built with curiosity and a little bit of caffeine.</p><a class="back-top" href="#top">BACK TO TOP ↑</a>
+        </div>
+        <div class="container footer-bottom"><span>© <span id="year"></span> Pranay Shinde</span><span>DESIGNED & BUILT
+                WITH INTENTION</span><span class="footer-location"><i></i> INDIA · AVAILABLE REMOTELY</span></div>
+    </footer>
+</body>
+
+</html>
